@@ -4,8 +4,6 @@ from app import ask_question, process_uploaded_file
 # --- Page Config ---
 st.set_page_config(
     page_title="RAG PDF Analyzer", 
-    page_icon="📄", 
-    layout="wide"
 )
 # --- PREMIUM PROFESSIONAL CSS ---
 st.markdown("""
