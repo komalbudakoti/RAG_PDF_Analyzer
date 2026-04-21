@@ -12,7 +12,6 @@ import streamlit as st
 
 # 1. Load the keys from Streamlit secrets
 api_key = st.secrets["GROQ_API_KEY"]
-
 # Global variable to store the current QA chain
 qa_chain = None
 
